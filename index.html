@@ -1,25 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lisboa</title>
-</head>
-<body>
-    <header>
-       
-         <img src="img/logo.jpeg" alt="logo LISBOA">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lisboa</title>
+    </head>
+    <body>
+        <header>
+        
+            <img src="img/logo.jpeg" alt="logo LISBOA">
 
-         <h1>LISBOA</h1>
-         <h2>Una banda indie del oeste de Buenos Aires</h2>
+            <h1>LISBOA</h1>
+            <h2>Una banda indie del oeste de Buenos Aires</h2>
 
-         <nav>
-             <a href="ruta">Historia</a>
-             <a href="pages/fotos.html">Fotos</a>
-             <a href="ruta">Shows</a>
-         </nav>
+            <nav>
+                <a href="ruta">Historia</a>
+                <a href="pages/fotos.html">Fotos</a>
+                <a href="ruta">Shows</a>
+            </nav>
 
-    </header>
-</body>
+        </header>
+        <main>
+            
+            <p>Lisboa es una experiencia única en el mundo de la 
+            música indie Argentina</p>
+
+            <hr>
+
+            <!-- aquí se registran los socios de Lisboa -->
+            <div>
+            
+                <h2>¿Estás suscripto al canal de Lisboa? ¡Inicia sesión!</h2>
+
+                <form>
+
+                    <label for="username">username:</label>
+                    <input type="text" name="username" required
+
+                    <br><br>
+
+                    <input type="password" placeholder="password" maxlength="8"
+
+                    <br><br>
+
+                    <label for="saveUserdata">¿Recordar datos?</label>
+                    <input type="checkbox" name="saveUserdata"
+
+                    <br><br>
+
+                    <input type="button" value="log in"
+                    <input type="button" value="submit"
+
+                </form>
+
+
+            </div>
+
+            <hr>
+
+            <!--sign up-->
+            <div>
+
+                <h2>¿No estás suscripto? ¡Haz la suscripción!</h2>
+
+
+                        <input type="email" placeholder="your mail"
+
+                        <br> <br>
+
+                        <input type="text" placeholder="your password"
+
+                        <br><br>
+
+                        <label for="userGender">Género:</label>
+
+                        <br>
+
+                        <label>Hombre cis</label>
+                        <input type="radio" name="userGender">
+
+                        <label>Mujer cis</label>
+                        <input type="radio" name="userGender">
+
+                        <label>No binario</label>
+                        <input type="radio" name="userGender"
+
+                        <br><br>
+
+                        <button type="submit">Crear cuenta</button>
+
+                        <button type="reset">Borrar campos</button>
+
+            </div>
+                    
+        </main>
+
+        <footer>
+            <h6>Escucha Lisboa en todos los momentos de tu vida</h6>
+            
+        </footer>
+    </body>
 </html>
